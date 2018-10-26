@@ -1,5 +1,7 @@
+from math import pi
+
 def area_circulo(r):
-	return 3.14**(r**2)
+	return pi*(r**2)
 	
 def area_quadrado(l):
 	return l*l
